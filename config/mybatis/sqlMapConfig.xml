@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+<!-- 配类型别名，配package的话是批量配置，该包下面所有的类型别名是这个类的名称,首字母大写或者小写都可以,默认是类名首字母小写      -->
+  <typeAliases>
+  	<package name="com.itycl.po"/>
+  </typeAliases>
+  
+</configuration>
